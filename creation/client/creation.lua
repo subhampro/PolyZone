@@ -102,7 +102,6 @@ AddEventHandler("polyzone:pzlast", function()
       multiline = true,
       args = {"Me", "The command pzlast only supports BoxZone and CircleZone for now"}
     })
-  
   end
 
   local name = GetUserInput("Enter name (or leave empty to reuse last zone's name):")
@@ -151,7 +150,7 @@ function drawThread()
   Citizen.CreateThread(function()
     while drawZone do
       if createdZone then
-        createdZone:draw()
+        createdZone:draw(true)
       end
       Wait(0)
     end

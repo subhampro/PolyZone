@@ -1,3 +1,9 @@
+# PolyZone 3.0 Moded By SubhaM [ It is the Fixed Ver Of PolyZone Which Saves the PolyZone.txt File Inside Your Resource Folder not on Server-Data! ]
+
+For Support Join Discord : : https://discord.gg/MzfEzgyzER
+
+For Stable Ver of PolyZone : 
+
 # PolyZone
 PolyZone is a FiveM mod to define zones of different shapes and test whether a point is inside or outside of the zone
 

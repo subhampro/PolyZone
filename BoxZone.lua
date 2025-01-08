@@ -93,6 +93,7 @@ local function _initDebug(zone, options)
   if not options.debugPoly then
     return
   end
+
   Citizen.CreateThread(function()
     while not zone.destroyed do
       zone:draw(false)
